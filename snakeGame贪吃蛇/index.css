@@ -1,0 +1,40 @@
+body{
+    background-color: silver;
+}
+
+#container{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 15px gray;
+}
+
+#status{
+    padding: 10px;
+    width: 400px;
+    height: 20px;
+    margin: auto;
+}
+.box{
+    float: left;
+    width: 200px;
+}
+
+#restart{
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+    border: 0;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(240, 128, 128);
+}
+
+#restart:hover{
+    background-color: coral;
+    cursor: pointer;
+}

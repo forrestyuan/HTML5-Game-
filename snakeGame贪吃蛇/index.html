@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="container">
+        <h3>基于HTML5的贪吃蛇小游戏</h3>
+        <hr>
+        <!-- 状态信息栏 -->
+        <div id="status">
+            <div class="box">
+                历史最高分：<span id="bestScore">0</span>
+            </div>
+            <div class="box">
+                当前分数：<span id="currentScore">0</span>
+            </div>
+        </div>
+        <!-- 设置游戏画布 -->
+        <canvas id="myCanvas" width="400" height="400" style="border:1px solid"></canvas>
+        <!-- 游戏按钮 -->
+        <div>
+            <button id="restart">重新开始</button>
+            <div id="tip"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
